@@ -7,3 +7,9 @@
 - Support identification, interpretation, fliter of the HTML tags;
 - Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
 - Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+
+```python
+car = pd.read_csv(filepath_or_buffer="https://raw.githubusercontent.com/insaid2018/Term-2/master/Data/car_sales.csv")
+print('Data Shape:', car.shape)
+car.head()
+```
